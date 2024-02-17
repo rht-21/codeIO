@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Protest+Strike&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+/* HTML */
+
+:root {
+    --bg: #030808;
+    --text: #bad3ff;
+    --accent: #fcfcfc;
+    --body-text: 'Roboto', sans-serif;
+    --header-text: 'Anta';
+    --code-text: "Noto Sans Mono", monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--body-text);
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navigation */
+
+#navigation-bar {
+    height: 60px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#logo-text {
+    font-family: var(--header-text);
+    letter-spacing: 2px;
+    user-select: none;
+    cursor: pointer;
+}
+
+/* Container */
+
+#container {
+    height: 90vh;
+    margin: 0 20px;
+    display: flex;
+}
+
+#left {
+    height: auto;
+    width: 28%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.code-space {
+    height: 210px;
+    width: 100%;
+    background-color: #252525;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 0 10px;
+    background-color: #494949;
+    color: #fcfcfccc;
+    letter-spacing: 1.5px;
+}
+
+.textarea {
+    background-color: rgb(255, 255, 255);
+    height: 180px;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    background-color: #2e2e2e;
+    resize: none;
+    border: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    font-family: var(--code-text);
+    color: var(--text);
+    outline: none;
+}
+
+#right {
+    height: auto;
+    width: 72%;
+    display: flex;
+    justify-content: end;
+}
+
+#output {
+    width: 99%;
+    background-color: white;
+}
+
+#frame {
+    height: 72%;
+    width: 100%;
+    border: none;
+    background-color: white;
+}
