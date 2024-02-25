@@ -11,7 +11,7 @@ CodeIO is a web application that allows users to write, test, and experiment wit
 
 ## Demo
 
-Check out the [live demo](https://rht-21.github.io/codeio-demo) to see CodeIO in action!
+Check out the [live demo](https://rht-21.github.io/codeIO) to see CodeIO in action!
 
 ## Installation
 
